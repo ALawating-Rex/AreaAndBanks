@@ -38,6 +38,19 @@
 1. 银行支行数据大约10万条，json文件比较大，请谨慎查看
 2. 银行支行SQL 是一个表的完整导出 包括表结构和数据，导入之后你完全可以自己修改相应字段类型以及优化长度和索引等。
 创建表SQL:(不需要单独运行，因为sql文件会创建表 banks，如果你本来就有 banks 这个表，记得备份下，因为sql本身：DROP TABLE IF EXISTS `banks`;)
+``` 
+CREATE TABLE `banks` (
+  `sub_branch_name` varchar(255) NOT NULL,
+  `sub_branch_id` varchar(50) DEFAULT NULL,
+  `province_id` int(11) DEFAULT NULL,
+  `province` varchar(255) DEFAULT NULL,
+  `city_id` int(11) DEFAULT NULL,
+  `city` varchar(255) DEFAULT NULL,
+  `bank_name` varchar(255) NOT NULL,
+  `bank_id` int(11) DEFAULT NULL,
+  KEY `idx_banks_name` (`bank_id`,`province_id`,`city_id`,`sub_branch_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+``` 
 3. 银行支行数据有很多数据平台支持接口调用，你可以自行搜索相关平台，这里离线的数据已经较老了（当然银行这个数据更新是不频繁的，勉强也能用）。
 
 
