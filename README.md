@@ -2,6 +2,13 @@
 
 [![license](https://img.shields.io/badge/license-WTFPL%20--%20Do%20What%20the%20Fuck%20You%20Want%20to%20Public%20License-green.svg)](https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/master/LICENSE)
 
+## 抛砖引玉
+现在省市区地址的需求越来越多，但是始终缺少一个官方标准，当然 中华人民共和国民政部-中华人民共和国行政区划代码 这里有官方数据，
+却不是程序员拿来即用的，开发也不应该在这里浪费时间，所以希望能够有一个统一的标准数据，value和code能够统一真的能够带来极大的便利。
+尤其和快递对接的系统多少也会遇到过城市名不匹配的情况吧。
+虽然银行支行数据这个使用案例相对较少了，但是标准数据几乎找不到。以上这些数据难道不是应该公开透明且以服务为目的的吗？
+所以希望抛砖引玉，有人能整理一个标准数据。
+
 中华人民共和国行政区划：省份、城市、区县、乡镇（街道）
 
 *   数据来源（民政部、国家统计局）：
