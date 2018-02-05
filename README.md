@@ -1,6 +1,6 @@
 # AreaAndBanks
 
-[![license](https://img.shields.io/badge/license-WTFPL%20--%20Do%20What%20the%20Fuck%20You%20Want%20to%20Public%20License-green.svg)](https://raw.githubusercontent.com/modood/Administrative-divisions-of-China/master/LICENSE)
+[![license](https://img.shields.io/badge/license-WTFPL%20--%20Do%20What%20the%20Fuck%20You%20Want%20to%20Public%20License-green.svg)](https://raw.githubusercontent.com/ALawating-Rex/AreaAndBanks/master/LICENSE)
 
 ## 抛砖引玉
 现在省市区地址的需求越来越多，但是始终缺少一个官方标准，当然 中华人民共和国民政部-中华人民共和国行政区划代码 这里有官方数据，
